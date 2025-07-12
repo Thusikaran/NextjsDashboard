@@ -24,8 +24,8 @@ const weekly = [
 
 export default function SalesChart() {
   return (
-    <div style={{ display: 'grid', gap: '2rem',width:'80vw' ,display:'flex', marginTop:'40px'}}>
-      <div style={{ background: '#fff', borderRadius: 8, padding: 16, boxShadow: '0 1px 3px rgba(0,0,0,.05)',width:'50%' }}>
+    <div style={{ display: 'grid', gap: '2rem',width:'80vw' ,display:'flex', marginTop:'30px'}}>
+      <div style={{ background: '#fff', borderRadius: 8, padding: 10, boxShadow: '0 1px 3px rgba(0,0,0,.05)',width:'50%' }}>
         <h3 style={{ marginBottom: 8 }}>Monthly Sales</h3>
         <ResponsiveContainer width="100%" height={250}>
           <LineChart data={monthly}>
@@ -38,7 +38,7 @@ export default function SalesChart() {
       </div>
 
       {/* Bar chart */}
-      <div style={{ background: '#fff', borderRadius: 8, padding: 16, boxShadow: '0 1px 3px rgba(0,0,0,.05)',width:'50%' }}>
+      <div style={{ background: '#fff', borderRadius: 8, padding: 10, boxShadow: '0 1px 3px rgba(0,0,0,.05)',width:'50%' }}>
         <h3 style={{ marginBottom: 8 }}>Active Users (Weekly)</h3>
         <ResponsiveContainer width="100%" height={250}>
           <BarChart data={weekly}>
