@@ -11,7 +11,7 @@ export default function Dashboard() {
         <StatCard title="Total Users"  value="1,240" />
         <StatCard title="Active Tasks" value="320" />
         <StatCard title="Unread Msgs"  value="12" />
-        <span style={{backgroundColor:'white' ,padding:'10px', width:"500px",display:'flex', justifyContent:"space-around"}}>
+        <span style={{backgroundColor:'white' ,padding:'10px', width:"450px",display:'flex', justifyContent:"space-around"}}>
             <ActiveUsersGauge percent={68} pathColor="#3b82f6" label="Active Users" />
             <ActiveUsersGauge percent={45} pathColor="#10b981" label="Sales" />
             <ActiveUsersGauge percent={85} pathColor="#f59e0b" label="Engagement" />
